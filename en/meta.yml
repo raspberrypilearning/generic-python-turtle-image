@@ -1,12 +1,12 @@
-title: generic-python-turtle-image
+title: Using Python turtle images
 hero_image: images/banner.png
-description: generic-python-turtle-image description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+description: Using Python turtle images
+original_url: 
 theme: cc-prototype
 duration: 1 # 1, 2 or 3
 listed: false
-ingredient: false
-interests: "games, photography, physical computing"
-technologies: "electronics, physical computing, python, scratch"
+ingredient: turtle
+interests: "graphics"
+technologies: "python, turtle"
 steps:
-  - title: Step one
+  - title: Turtle images
