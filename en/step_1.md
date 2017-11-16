@@ -12,7 +12,7 @@ screen.register_shape('happy.png')
 Then you can set the shape:
 
 ```python
-turtle.shape('sad.png')
+turtle.shape('happy.png')
 ```
 
 Turtles face right to start with. You can change the heading to get your image to face north:
