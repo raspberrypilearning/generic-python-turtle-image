@@ -1,4 +1,4 @@
-# Changing Python Turtle icons
+### Changing Python Turtle icons
 
 Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon. 
 
