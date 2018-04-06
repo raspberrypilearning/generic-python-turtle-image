@@ -4,20 +4,20 @@
 
 ستحتاج أولًا إلى تسجيل الصورة باستخدام screen. 
 
-python```
+```python
 screen = turtle.Screen()
 screen.register_shape('happy.png') 
 ```
 
 ثم يمكنك تعيين الشكل:
 
-python```
+```python
 turtle.shape('happy.png')
 ```
 
 يكون اتجاه صور السلحفاة نحو اليمين عندما تبدأ. لكن يمكنك تغيير قيمة heading ليكون اتجاه الصورة إلى أعلى:
 
-python```
+```python
 turtle.setheading(90) # face north
 ```
 
