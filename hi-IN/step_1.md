@@ -1,26 +1,24 @@
-Python टर्टल के लिए उपयोग करने के लिए चित्र निर्धारित कर सकते हैं। 
+### Changing Python Turtle icons
 
-टर्टल चित्रों का आकार छोटा होना चाहिए, 50 x 50 पिक्सल्स बड़ा टर्टल चित्र प्रदान करेंगे। 
+Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
 
-सबसे पहले आपको चित्र को स्क्रीन के साथ पंजीकृत करना चाहिए। 
++ First you need to register the image with the `screen`:
 
 ```python
 screen = turtle.Screen()
 screen.register_shape('happy.png') 
 ```
 
-इसके बाद आप आकृति निर्धारित कर सकते हैं:
++ Then you can set the `shape`:
 
 ```python
 turtle.shape('happy.png')
 ```
 
-टर्टल शुरू करने के लिए मुख दाईं तरफ रखते हैं। आप अपने चित्र को उत्तर की ओर करने के लिए शीर्षक में परिवर्तन कर सकते हैं:
++ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
 
 ```python
-turtle.setheading(90) # face north
+turtle.setheading(90) # face upwards
 ```
 
-उदाहरण:
-<iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
+See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
