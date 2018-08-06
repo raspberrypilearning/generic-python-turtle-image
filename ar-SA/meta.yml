@@ -1,13 +1,15 @@
-title: استخدام صور جرافيكيات السلحفاة في Python
+---
+title: Changing Python Turtle icons
 hero_image: images/banner.png
-description: استخدام صور جرافيكيات السلحفاة في Python
-original_url: 
+description: How to swap the Python Turtle image
+original_url:
 theme: cc-prototype
-duration: 1 # 1, 2 or 3
+duration: 1
 listed: false
 ingredient: true
-copyedit: false
+copyedit: true
 interests: "graphics"
 technologies: "python, turtle"
 steps:
-  - title: صور جرافيكيات السلحفاة
+  - 
+    title: Python Turtle images
