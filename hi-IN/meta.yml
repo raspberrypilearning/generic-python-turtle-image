@@ -1,13 +1,15 @@
-title: पाइथन टर्टल चित्र का उपयोग करना
+---
+title: Changing Python Turtle icons
 hero_image: images/banner.png
-description: पाइथन टर्टल चित्र का उपयोग करना
-original_url: 
+description: How to swap the Python Turtle image
+original_url:
 theme: cc-prototype
-duration: 1 # 1, 2 or 3
+duration: 1
 listed: false
 ingredient: true
-copyedit: false
-interests: “graphics"
-technologies: “python, turtle"
+copyedit: true
+interests: "graphics"
+technologies: "python, turtle"
 steps:
-  - title: कछुए के चित्र
+  - 
+    title: Python Turtle images
