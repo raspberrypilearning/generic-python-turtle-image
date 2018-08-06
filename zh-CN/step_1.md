@@ -1,26 +1,24 @@
-你可以设置图片来用于 Python 海龟。 
+### Changing Python Turtle icons
 
-海龟图片尺寸较小，50 x 50 像素会得到一张大幅的海龟图片。 
+Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
 
-首先你需要在画面上注册图片。 
++ First you need to register the image with the `screen`:
 
 ```python
 screen = turtle.Screen()
 screen.register_shape('happy.png') 
 ```
 
-然后你可以设置形状：
++ Then you can set the `shape`:
 
 ```python
 turtle.shape('happy.png')
 ```
 
-海龟在开始时面朝右侧。你可以更改朝向，以使你的图片朝北：
++ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
 
 ```python
-turtle.setheading(90) # face north
+turtle.setheading(90) # face upwards
 ```
 
-示例：
-<iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
+See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
