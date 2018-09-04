@@ -1,15 +1,15 @@
 ---
-title: Changing Python Turtle icons
+title: Pictogrammen van Python Turtle wijzigen
 hero_image: images/banner.png
-description: How to swap the Python Turtle image
+description: Hoe je de afbeelding van de Python Turtle verwisselt
 original_url:
 theme: cc-prototype
 duration: 1
 listed: false
 ingredient: true
 copyedit: true
-interests: "graphics"
+interests: "grafisch"
 technologies: "python, turtle"
 steps:
   - 
-    title: Python Turtle images
+    title: Python Turtle afbeeldingen
