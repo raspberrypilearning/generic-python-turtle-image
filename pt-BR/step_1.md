@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### Alterando os ícones da tartaruga do Python
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+Em vez de usar sempre uma tartaruga, podemos dizer ao ícone de tartaruga do Python para usar uma imagem diferente. A imagem deve ser pequena, para que não cubra muito a tela: 50 × 50 pixels lhe dará um grande ícone.
 
-+ First you need to register the image with the `screen`:
++ Primeiro é preciso registrar a imagem na `tela`:
 
 ```python
-screen = turtle.Screen()
+screen = turtle.Screen() 
 screen.register_shape('happy.png') 
 ```
 
-+ Then you can set the `shape`:
++ Em seguida podemos definir o `formato(shape)`:
 
 ```python
 turtle.shape('happy.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ Os ícones da tartaruga irão começar virados para a direita. Podemos alterar o cabeçalho para que a imagem fique voltada para cima:
 
 ```python
-turtle.setheading(90) # face upwards
+turtle.setheading(90) # Apontar para cima
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Veja um exemplo aqui: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
