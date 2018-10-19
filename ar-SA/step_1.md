@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### تغيير أيقونات Python Turtle
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+بدلاً من استخدام أيقونة السلحفاة دائمًا، يمكنك أن تخبر الـ Python بإستخدام صورة مختلفة. يجب أن تكون الصورة صغيرة، بحيث لا تغطي الكثير من مساحة الشاشة: 50 × 50 بكسل ستعطيك أيقونة كبيرة الحجم.
 
-+ First you need to register the image with the `screen`:
++ تحتاج أولاً إلى تسجيل الصورة باستخدام `screen`:
 
 ```python
 screen = turtle.Screen()
-screen.register_shape('happy.png') 
+screen.register_shape('سعيد.png') 
 ```
 
-+ Then you can set the `shape`:
++ ثم يمكنك إختيار `الشكل`:
 
 ```python
-turtle.shape('happy.png')
+turtle.shape('سعيد.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ يكون اتجاه ايقونة السلحفاة نحو اليمين عند البدء. لكن يمكنك تغيير اتجاه الصورة إلى أعلى:
 
 ```python
 turtle.setheading(90) # face upwards
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+انظر على سبيل المثال هنا: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
