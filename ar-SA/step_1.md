@@ -6,13 +6,13 @@
 
 ```python
 screen = turtle.Screen()
-screen.register_shape('سعيد.png') 
+screen.register_shape('happy.png') 
 ```
 
 + ثم يمكنك إختيار `الشكل`:
 
 ```python
-turtle.shape('سعيد.png')
+turtle.shape ('happy.png')
 ```
 
 + يكون اتجاه ايقونة السلحفاة نحو اليمين عند البدء. لكن يمكنك تغيير اتجاه الصورة إلى أعلى:
