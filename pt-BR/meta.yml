@@ -9,6 +9,6 @@ listed: false
 ingredient: true
 copyedit: true
 interests: "graphics"
-technologies: "python, tartaruga"
+technologies: "python, turtle"
 steps:
   - title: Imagens de tartaruga do Python
