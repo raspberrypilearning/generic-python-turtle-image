@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### Endre Python Skilpadde-ikoner
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+I stedet for å alltid bruke en skilpadde, kan du fortelle Python Skilpadde-ikonet at det skal bruke et annet bilde. Bildet bør være lite, slik at det ikke dekker for mye av skjermen: 50 × 50 piksler gir deg et stort ikon.
 
-+ First you need to register the image with the `screen`:
++ Først må du registrere bildet med `screen`:
 
 ```python
-screen = turtle.Screen()
-screen.register_shape('happy.png') 
+skjerm = turtle.Screen()
+skjerm.register_shape('happy.png') 
 ```
 
-+ Then you can set the `shape`:
++ Deretter kan du sette formen med `shape`:
 
 ```python
 turtle.shape('happy.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ Skilpadde-ikoner peker til høyre til å begynne med. Du kan endre retningen for å få bildet ditt til å peke oppover:
 
 ```python
-turtle.setheading(90) # face upwards
+turtle.setheading (90) # vend oppover
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Se et eksempel her: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
