@@ -18,7 +18,7 @@ turtle.shape('happy.png')
 + يكون اتجاه وجه ايقونة السلحفاة نحو اليمين عند البدء. لكن يمكنك تغيير اتجاه الصورة إلى أعلى:
 
 ```python
-turtle.setheading(90) # face upwards
+turtle.setheading(90) #الوجه للأعلى
 ```
 
 انظر على سبيل المثال هنا: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
