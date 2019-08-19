@@ -1,7 +1,7 @@
 ---
-title: Changing Python Turtle icons
+title: Schimbarea pictogramelor Turtle în Python
 hero_image: images/banner.png
-description: How to swap the Python Turtle image
+description: Cum să schimbi pictograma Turtle în Python
 original_url:
 theme: cc-prototype
 duration: 1
@@ -12,4 +12,4 @@ interests: "grafică"
 technologies: "python, turtle"
 steps:
   - 
-    title: Python Turtle images
+    title: Imagini Turtle în Python
