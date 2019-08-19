@@ -15,7 +15,7 @@ screen.register_shape('happy.png')
 turtle.shape('happy.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ Pictogramele țestoaselor încep orientate spre dreapta. You can change the heading to get your image to face upwards:
 
 ```python
 turtle.setheading(90) # face upwards
