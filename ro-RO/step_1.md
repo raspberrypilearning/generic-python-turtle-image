@@ -1,8 +1,8 @@
 ### Changing Python Turtle icons
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+În loc să folosești întotdeauna o broască țestoasă, poți schimba pictograma Turtle în Python într-o altă imagine. Imaginea ar trebui să fie mică, astfel încât să nu acopere prea mult ecran: 50 × 50 pixeli îți va oferi o pictogramă mare.
 
-+ First you need to register the image with the `screen`:
++ Mai întâi trebuie să înregistrezi imaginea cu `ecranul`:
 
 ```python
 screen = turtle.Screen()
