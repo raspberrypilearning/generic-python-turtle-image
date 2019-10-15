@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### Python Turtle Icons ändern
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+Anstatt immer eine Schildkröte zu verwenden, kannst du das Python Turtle-Symbol anweisen, ein anderes Bild zu verwenden. Das Bild sollte klein sein, damit es nicht zu viel vom Bildschirm verdeckt: 50 × 50 Pixel ergeben ein großes Symbol.
 
-+ First you need to register the image with the `screen`:
++ Zuerst musst du das Bild mit dem Bildschirm `screen` registrieren:
 
 ```python
 screen = turtle.Screen()
 screen.register_shape('happy.png') 
 ```
 
-+ Then you can set the `shape`:
++ Dann kannst du die Form (`shape`) festlegen:
 
 ```python
 turtle.shape('happy.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ Turtle-Symbole zeigen zu Beginn nach rechts. Du kannst die Ausrichtung ändern, damit dein Bild nach oben zeigt:
 
 ```python
-turtle.setheading(90) # face upwards
+turtle.setheading(90) #zeige nach oben
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Sehe Dir hier ein Beispiel an: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
