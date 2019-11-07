@@ -4,11 +4,11 @@ hero_image: images/banner.png
 description: How to swap the Python Turtle image
 original_url:
 theme: cc-prototype
-duration: 1
+duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
 copyedit: true
-interests: "graphics"
+interests: "그래픽"
 technologies: "python, turtle"
 steps:
   - 
