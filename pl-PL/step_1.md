@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### Zmiana ikon żółwia Pythona
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+Zamiast zawsze używać żółwia, możesz powiedzieć ikonie żółwia Pythona, żeby użyć innego obrazka. Obraz powinien być mały, tak aby nie zasłaniał on zbyt dużej części ekranu: 50 × 50 pikseli daje dużą ikonę.
 
-+ First you need to register the image with the `screen`:
++ Najpierw musisz zarejestrować obrazek na `ekranie`:
 
 ```python
 screen = turtle.Screen()
 screen.register_shape('happy.png') 
 ```
 
-+ Then you can set the `shape`:
++ Następnie możesz ustawić `kształt`:
 
 ```python
-turtle.shape('happy.png')
+turtle.shape("happy.png")
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ Ikony żółwia są początkowo skierowane w prawo. Możesz zmienić nagłówek, aby obrazek był skierowany w górę:
 
 ```python
-turtle.setheading(90) # face upwards
+turtle.setheading(90) # twarzą do góry
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Zobacz przykład tutaj: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
