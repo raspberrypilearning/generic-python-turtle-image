@@ -1,0 +1,14 @@
+---
+title: Zmiana ikon żółwia Pythona
+hero_image: images/banner.png
+description: Jak zamienić obraz żółwia Pythona
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+interests: "graphics"
+technologies: "python, turtle"
+steps:
+  - title: Obrazki żółwia Pythona
