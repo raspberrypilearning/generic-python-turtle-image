@@ -1,7 +1,7 @@
 ---
-title: Changing Python Turtle icons
+title: 파이썬 터틀 아이콘 변경하기
 hero_image: images/banner.png
-description: How to swap the Python Turtle image
+description: 파이썬 터틀 이미지를 바꾸는 방법
 original_url:
 theme: cc-prototype
 duration: 1 #1, 2 or 3
@@ -12,4 +12,4 @@ interests: "그래픽"
 technologies: "python, turtle"
 steps:
   - 
-    title: Python Turtle images
+    title: 파이썬 터틀 이미지
