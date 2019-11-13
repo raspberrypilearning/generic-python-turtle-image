@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### 파이썬 거북 아이콘 변경하기
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+거북이를 항상 사용하는 대신 파이썬 거북 아이콘에 다른 이미지를 사용하도록 알릴 수 있습니다. 이미지가 너무 작아서 화면이 너무 많이 가려지지 않아야합니다. 50 × 50 픽셀은 커다란 아이콘을 줄 것입니다.
 
-+ First you need to register the image with the `screen`:
++ 먼저 이미지를 `screen`에 아래와 같이 등록합니다:
 
 ```python
 screen = turtle.Screen()
 screen.register_shape('happy.png') 
 ```
 
-+ Then you can set the `shape`:
++ 그런 다음 `모양`을 설정할 수 있습니다:
 
 ```python
 turtle.shape('happy.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ 거북이 아이콘은 바로 시작합니다. 제목을 변경하여 이미지가 위를 향하도록 할 수 있습니다.
 
 ```python
-turtle.setheading(90) # face upwards
+turtle.setheading(90) # 얼굴을 위쪽으로
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+아래 예제를 참조하십시오: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
