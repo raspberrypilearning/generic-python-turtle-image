@@ -1,0 +1,14 @@
+---
+title: 파이썬 터틀 아이콘 변경하기
+hero_image: images/banner.png
+description: 파이썬 터틀 이미지를 바꾸는 방법
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+interests: "graphics"
+technologies: "python, turtle"
+steps:
+  - title: 파이썬 터틀 이미지
