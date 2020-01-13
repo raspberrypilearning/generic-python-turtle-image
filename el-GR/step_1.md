@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### Αλλαγή εικονιδίων της Χελώνας Python
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+Αντί να χρησιμοποιείτε πάντα μια Χελώνα, μπορείτε να πείτε στο εικονίδιο της Χελώνας Python να χρησιμοποιήσει μια διαφορετική εικόνα. Η εικόνα πρέπει να είναι μικρή, ώστε να μην καλύπτει πάρα πολύ μεγάλο τμήμα της οθόνης: 50 × 50 pixels θα σας δώσουν ένα μεγάλο εικονίδιο.
 
-+ First you need to register the image with the `screen`:
-
-```python
-screen = turtle.Screen()
-screen.register_shape('happy.png') 
-```
-
-+ Then you can set the `shape`:
++ Πρώτα πρέπει να καταχωρίσετε την εικόνα με την `screen`:
 
 ```python
-turtle.shape('happy.png')
+screen = turtle.Screen ()
+screen.register_shape ('happy.png') 
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ Στη συνέχεια μπορείτε να ορίσετε την `shape`:
+
+```python
+turtle.shape ('happy.png')
+```
+
++ Ο αρχικός προσανατολισμός των εικονιδίων Χελώνας είναι προς τα δεξιά. Μπορείτε να αλλάξετε την επικεφαλίδα για να κάνετε την εικόνα σας να κοιτάει προς τα πάνω:
 
 ```python
 turtle.setheading(90) # face upwards
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Δείτε ένα παράδειγμα εδώ: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
