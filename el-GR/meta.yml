@@ -1,15 +1,15 @@
 ---
-title: Changing Python Turtle icons
+title: Αλλαγή εικονιδίων της Χελώνας Python
 hero_image: images/banner.png
-description: How to swap the Python Turtle image
+description: Πώς να ανταλλάξετε την εικόνα της Χελώνας Python
 original_url:
 theme: cc-prototype
-duration: 1
+duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
 copyedit: true
-interests: "graphics"
-technologies: "python, turtle"
+interests: "γραφικά"
+technologies: "python, χελώνα"
 steps:
   - 
-    title: Python Turtle images
+    title: Εικόνες της Χελώνας Python
