@@ -1,0 +1,14 @@
+---
+title: Alterando os ícones da Tartaruga Python
+hero_image: images/banner.png
+description: Como trocar a imagem da Tartaruga Python
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+interests: "graphics"
+technologies: "python, turtle"
+steps:
+  - title: Imagens da Tartaruga Python
