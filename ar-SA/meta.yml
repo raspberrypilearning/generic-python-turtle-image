@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: كيفية تبديل صورة "Python Turtle"
 original_url:
 theme: cc-prototype
-duration: 1
+duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
 copyedit: true
