@@ -6,13 +6,13 @@ Her zaman bir turtle kullanmak yerine, Python Turtle simgesine farklı bir gör�
 
 ```python
 screen = turtle.Screen()
-screen.register_shape('mutlu.png') 
+screen.register_shape('happy.png') 
 ```
 
 + Sonra `şeklini` ayarlayabilirsiniz:
 
 ```python
-turtle.shape('mutlu.png')
+turtle.shape('happy.png')
 ```
 
 + Turtle simgeleri başlamak için sağa bakarlar. Resminizin yukarı bakmasını sağlamak için başlığı değiştirebilirsiniz:
