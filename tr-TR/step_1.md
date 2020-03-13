@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### Python Turtle simgelerini değiştirme
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+Her zaman bir turtle kullanmak yerine, Python Turtle simgesine farklı bir görüntü kullanmasını söyleyebilirsiniz. Görüntünün küçük olması gerekir, böylece ekranda fazla yer kaplamaz: 50 × 50 piksel size büyük bir simge verecektir.
 
-+ First you need to register the image with the `screen`:
++ Öncelikle, görüntüyü `screen` komutuyla kaydetmeniz gerekir:
 
 ```python
 screen = turtle.Screen()
-screen.register_shape('happy.png') 
+screen.register_shape('mutlu.png') 
 ```
 
-+ Then you can set the `shape`:
++ Sonra `şeklini` ayarlayabilirsiniz:
 
 ```python
-turtle.shape('happy.png')
+turtle.shape('mutlu.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ Turtle simgeleri başlamak için sağa bakarlar. Resminizin yukarı bakmasını sağlamak için başlığı değiştirebilirsiniz:
 
 ```python
-turtle.setheading(90) # face upwards
+turtle.setheading(90) # yüzü yukarı doğru
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Burada bir örneğe bakın: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
