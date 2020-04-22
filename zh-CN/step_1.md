@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### 如何改变 Python Turtle 图标
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+除了一直使用海龟（turtle）的图像之外，你可以让 Python Turtle icon 使用一个不一样的形象。 图片应该要小，所以才不会占据太多屏幕空间：50x50 像素会是一个很大的图像。
 
-+ First you need to register the image with the `screen`:
++ 首先你需要通过使用 `screen` 注册你要用的图片:
 
 ```python
 screen = turtle.Screen()
 screen.register_shape('happy.png') 
 ```
 
-+ Then you can set the `shape`:
++ 然后你需要设置形状 `shape`:
 
 ```python
 turtle.shape('happy.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ Turtle（海龟）默认情况面向右边： 你可以改变它的朝向来让图像朝上
 
 ```python
 turtle.setheading(90) # face upwards
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+举例来说： <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
