@@ -1,4 +1,4 @@
-आयात turtle
+import turtle
 
 screen = turtle.Screen()
 screen.register_shape('sad.png') 
