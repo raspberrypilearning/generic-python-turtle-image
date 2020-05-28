@@ -1,7 +1,7 @@
 ---
 title: 更改 Python Turtle 图标
 hero_image: images/banner.png
-description: 如何更改 Python 的海龟图标
+description: 如何更改 Python Turtle的图标
 original_url:
 theme: cc-prototype
 duration: 1 #1, 2 or 3
@@ -12,4 +12,4 @@ interests: "图形"
 technologies: "python, 海龟"
 steps:
   - 
-    title: Python 海龟图标
+    title: Python Turtle 图标
