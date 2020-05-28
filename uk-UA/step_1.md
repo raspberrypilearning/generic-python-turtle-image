@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### Зміна іконок Python Turtle
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+Замість того, щоб завжди використовувати зображення черепахи, ти можеш встановити щось інше як іконку Python Turtle. Зображення має бути невеликим, щоб не закривати надто велику частину екрану: 50 × 50 пікселів дасть тобі досить велику іконку.
 
-+ First you need to register the image with the `screen`:
++ Перш за все, необхідно зареєструвати зображення в `screen`:
 
 ```python
 screen = turtle.Screen()
 screen.register_shape('happy.png') 
 ```
 
-+ Then you can set the `shape`:
++ Тоді ти зможеш встановити його через `shape`:
 
 ```python
 turtle.shape('happy.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ Спочатку іконка Turtle повернута вправо. Ти можеш змінити напрямок (heading), щоб направити зображення вгору:
 
 ```python
-turtle.setheading(90) # face upwards
+turtle.setheading(90) # повернути вгору
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Ось приклад: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
