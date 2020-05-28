@@ -1,8 +1,8 @@
-import turtle
+importar tortuga
 
 screen = turtle.Screen()
-screen.register_shape('sad.png') 
+screen.register_shape('sad.pngn') 
 turtle.shape('sad.png')
-turtle.setheading(90) # Turtles face right by default
+turtle.setheading(90) # Las tortugas miran a la derecha por defecto
 
-# Try 'happy.png'
+# Prueba 'happy.png'
