@@ -1,11 +1,11 @@
-### Cambiar el icono de la tortuga de Python
+### Cambiar los íconos de Python Tortuga
 
-En lugar de usar siempre una tortuga, puedes decirle a Python que use una imagen diferente para el icono de Python Turtle. La imagen debe ser pequeña para que no ocupe demasiado de la pantalla: 50 × 50 píxels te dará un icono grande.
+En lugar de usar siempre una tortuga, puedes indicarle al ícono de Python Tortuga que use una imagen diferente. La imagen debe ser pequeña, de modo que no cubra demasiado de la pantalla: 50 × 50 píxeles te darán un ícono grande.
 
 + Primero necesitas registrar la imagen en la pantalla `(screen)`:
 
 ```python
-screen = turtle.Screen ()
+turtlescreen = turtle.Screen ()
 screen.register_shape('happy.png') #cara sonriente 
 ```
 
@@ -15,10 +15,10 @@ screen.register_shape('happy.png') #cara sonriente
 turtle.shape('happy.png')
 ```
 
-+ Al principio, los iconos de tortuga miran hacia la derecha. Puedes cambiar el encabezado para que tu imagen mire hacia arriba:
++ Los íconos de la tortuga miran hacia a la derecha para empezar. Puedes cambiar el encabezado para que tu imagen mire hacia arriba:
 
 ```python
-turtle.setheading(90) # mirando hacia arriba
+turtle.setheading(90) # mirar hacia arriba
 ```
 
 Aquí tienes un ejemplo: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
