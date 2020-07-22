@@ -1,0 +1,15 @@
+---
+title: Python ಆಮೆ ಐಕಾನ್ಗಳನ್ನು ಬದಲಾಯಿಸುವುದು
+hero_image: images/banner.png
+description: Python ಆಮೆ ಚಿತ್ರವನ್ನು ಹೇಗೆ ಸ್ವ್ಯಾಪ್ ಮಾಡುವುದು
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+interests: "graphics"
+technologies: "python, turtle"
+steps:
+  - 
+    title: Python ಆಮೆ(Turtle) ಚಿತ್ರಗಳು
