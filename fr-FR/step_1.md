@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### Modifier les icônes de Python Turtle
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+Au lieu de toujours utiliser une tortue, tu peux indiquer à l'icône Python Turtle d'utiliser une image différente. L'image doit être petite pour ne pas trop recouvrir l'écran : 50 × 50 pixels te donneras une grande icône.
 
-+ First you need to register the image with the `screen`:
++ Tu dois d'abord enregistrer l'image avec la fonction `ecran` :
 
 ```python
-screen = turtle.Screen()
-screen.register_shape('happy.png') 
+ecran = turtle.Screen()
+ecran.register_shape('happy.png') 
 ```
 
-+ Then you can set the `shape`:
++ Ensuite, tu peux définir la `forme` :
 
 ```python
 turtle.shape('happy.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ Les icônes Turtle sont en face pour commencer. Tu peux changer le titre pour que ton image soit orientée vers le haut :
 
 ```python
-turtle.setheading(90) # face upwards
+turtle.setheading(90) # faire face vers le haut
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Voir un exemple ici : <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
