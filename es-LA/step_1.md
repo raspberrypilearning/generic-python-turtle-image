@@ -2,14 +2,14 @@
 
 En lugar de usar siempre una tortuga, puedes indicarle al ícono de Python Tortuga que use una imagen diferente. La imagen debe ser pequeña, de modo que no cubra demasiado de la pantalla: 50 × 50 píxeles te darán un ícono grande.
 
-+ Primero necesitas registrar la imagen en la pantalla `(screen)`:
++ Primero necesitas registrar la imagen en la `pantalla`:
 
 ```python
-turtlescreen = turtle.Screen ()
-screen.register_shape('happy.png') #cara sonriente 
+pantalla = turtle.Screen()
+pantalla.register_shape('happy.png') 
 ```
 
-+ Luego puedes definir la `forma (shape)`:
++ Luego, puedes definir la `forma`:
 
 ```python
 turtle.shape('happy.png')
