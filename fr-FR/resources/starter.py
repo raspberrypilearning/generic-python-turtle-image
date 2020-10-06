@@ -1,8 +1,8 @@
 import turtle
 
-screen = turtle.Screen()
-screen.register_shape('sad.png') 
+ecran = turtle.Screen()
+ecran.register_shape('sad.png') 
 turtle.shape('sad.png')
-turtle.setheading(90) # Turtles face right by default
+turtle.setheading(90) # Les tortues font face à droite par défaut
 
-# Try 'happy.png'
+# Essaie 'happy.png'
