@@ -1,24 +1,24 @@
-### Changing Python Turtle icons
+### Pythonのタートルのアイコンを変更する
 
-Instead of always using a turtle, you can tell the Python Turtle icon to use a different image. The image should be small, so that it does not cover up too much of the screen: 50 × 50 pixels will give you a large icon.
+いつも使っているタートル(かめ)の代わりに、Pythonのタートルのアイコンに違う画像を使うように指示することができます。 画像は小さくして、画面を覆い尽くさないようにする必要があります。50×50ピクセルで大きなアイコンが表示されます。
 
-+ First you need to register the image with the `screen`:
++ 最初に `screen` を使って画像を登録する必要があります：
 
 ```python
 screen = turtle.Screen()
 screen.register_shape('happy.png') 
 ```
 
-+ Then you can set the `shape`:
++ 次に `shape`を設定することができます：
 
 ```python
 turtle.shape('happy.png')
 ```
 
-+ Turtle icons face right to start with. You can change the heading to get your image to face upwards:
++ タートルのアイコンは最初、右を向いています。 向きを変更して、画像を上向きにすることができます：
 
 ```python
-turtle.setheading(90) # face upwards
+turtle.setheading(90) # 顔を上向きに
 ```
 
-See an example here: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+以下の例を参照してください。 <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
