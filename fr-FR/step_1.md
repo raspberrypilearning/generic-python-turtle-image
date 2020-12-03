@@ -1,6 +1,6 @@
 ### Modifier les icônes de Python Turtle
 
-Au lieu de toujours utiliser une tortue, tu peux indiquer à l'icône Python Turtle d'utiliser une image différente. L'image doit être petite pour ne pas trop recouvrir l'écran : 50 × 50 pixels te donneras une grande icône.
+Au lieu de toujours utiliser une tortue, tu peux indiquer à l'icône Python Turtle d'utiliser une image différente. L'image doit être petite pour ne pas trop recouvrir l'écran : 50 × 50 pixels te donnera une grande icône.
 
 + Tu dois d'abord enregistrer l'image avec la fonction `ecran` :
 
