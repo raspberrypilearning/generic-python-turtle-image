@@ -1,0 +1,14 @@
+---
+title: Pythonのタートルのアイコンを変更する
+hero_image: images/banner.png
+description: Pythonのタートルの画像を入れ替える方法
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+interests: "graphics"
+technologies: "python, turtle"
+steps:
+  - title: Pythonのタートルの画像
