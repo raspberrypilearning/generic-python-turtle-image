@@ -3,6 +3,6 @@ import turtle
 screen = turtle.Screen()
 screen.register_shape('sad.png') 
 turtle.shape('sad.png')
-turtle.setheading(90) # Turtles face right by default
+turtle.setheading(90) # turtle(かめ)はデフォルトで右向きです
 
-# Try 'happy.png'
+# 'happy.png'を使い試してみて下さい
