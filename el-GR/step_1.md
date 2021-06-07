@@ -15,11 +15,12 @@ screen.register_shape ('happy.png')
 turtle.shape ('happy.png')
 ```
 
-+ Ο αρχικός προσανατολισμός των εικονιδίων Χελώνας είναι προς τα δεξιά. Μπορείτε να αλλάξετε την επικεφαλίδα για να κάνετε την εικόνα σας να κοιτάει προς τα πάνω:
++ Ο αρχικός προσανατολισμός των εικονιδίων Χελώνας είναι προς τα δεξιά. Μπορείτε να αλλάξετε την κατεύθυνση για να κάνετε την εικόνα σας να κοιτάει προς τα πάνω:
 
 ```python
-turtle.setheading(90) # προς τα πάνω
+turtle.setheading(90) # face upwards
 ```
 
 Δείτε ένα παράδειγμα εδώ: 
-<iframe src="https://trinket.io/embed/python/0b464fb6fe?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+
+<iframe src="https://trinket.io/embed/python/0b464fb6fe?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
