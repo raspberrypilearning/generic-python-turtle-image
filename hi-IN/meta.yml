@@ -1,15 +1,15 @@
 ---
 title: Python Turtle आइकन बदलना
 hero_image: images/banner.png
-description: Python Turtle छवि का कैसे अदला बदली करें
+description: Python Turtle के चित्र को कैसे बदलें
 original_url:
 theme: cc-prototype
 duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
 copyedit: true
-interests: "“graphics\""
-technologies: "“python, turtle\""
+interests: "graphics"
+technologies: "python, turtle"
 steps:
   - 
-    title: Python Turtle छवियां
+    title: Python Turtle चित्र
