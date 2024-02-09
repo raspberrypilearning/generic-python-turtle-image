@@ -5,7 +5,7 @@ En lugar de usar siempre una tortuga, puedes indicarle al ícono de Python Tortu
 + Primero necesitas registrar la imagen en la `pantalla`:
 
 ```python
-turtlepantalla = turtle.Screen ()
+pantalla = turtle.Screen ()
 pantalla.register_shape('happy.png') #cara sonriente 
 ```
 
