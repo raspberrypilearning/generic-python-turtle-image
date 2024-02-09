@@ -21,4 +21,4 @@ turtle.shape('happy.png')
 turtle.setheading(90) # 얼굴을 위쪽으로
 ```
 
-아래 예제를 참조하십시오: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+아래 예제를 참조하십시오: <iframe src="https://trinket.io/embed/python/5f68ef3fd7?start=result" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
